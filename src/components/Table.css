@@ -1,0 +1,122 @@
+@media screen and (max-width: 600px) {
+  table {
+    border: 0;
+  }
+
+  table caption {
+    font-size: 1.0em;
+  }
+
+  table thead, tfoot {
+    display: none;
+  }
+
+  table tr {
+    border-bottom: 3px solid #ddd;
+    display: block;
+    margin-bottom: 0.625em;
+  }
+
+ table td  {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: 0.6em;
+    text-align: right;
+  }
+
+  table td .hr {
+    color: #fff;
+  }
+
+  table td:before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+
+  table td:last-child {
+    border-bottom: 0;
+  }
+
+  #myInput {
+    margin-top: 4em;
+  }
+
+  .yrsection{
+    width: 90% !important;
+  }
+
+  #filters > *:first-child {
+    display: none;
+  }
+}
+
+#myInput {
+    background-image: url('../../public/images/searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 14px;
+    padding: 7px 20px 7px 40px;
+    border: 1px solid #16161d;
+    background-color: #1e2128;
+    color: #fff;
+    border-radius:8px;
+}
+  
+.wrapper {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+#filters {
+  line-height: 30px;
+  /* color: #ddd; */
+  font-size: 1em;
+  margin-top: 7px;
+}
+
+#filters span{
+  margin-left: 20px;
+  margin-right: 20px;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  cursor: pointer;
+  user-select: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 0.1em 0.2em;
+  border-radius: 0.25em;
+}
+
+#filters span:hover {
+  color: #ff8b00;
+}
+
+#filters span.active {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  color: #ff8b00;
+}
+
+
+#filters > *:first-child {
+  cursor: default;
+}
+
+[data-sort]:hover {
+	cursor: pointer;
+}
+
+[data-dir="asc"]:after {
+	content: ' ↗';
+}
+
+[data-dir="desc"]:after {
+	content: ' ↘';
+}
+
+/* Table.css */
+

@@ -1,0 +1,53 @@
+{
+  "name": "brc-20",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@headlessui/react": "^1.7.14",
+    "@react-hook/media-query": "^1.1.1",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^13.0.0",
+    "@testing-library/user-event": "^13.2.1",
+    "antd": "^5.5.0",
+    "axios": "^1.4.0",
+    "datatables.net-dt": "^1.13.4",
+    "jquery": "^3.7.0",
+    "react": "^18.2.0",
+    "react-data-table-component": "^7.5.3",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.8.0",
+    "react-infinite-scroll-component": "^6.1.0",
+    "react-router-dom": "^6.11.2",
+    "react-scripts": "5.0.1",
+    "sorttable": "^1.0.2",
+    "styled-components": "^6.0.0-rc.1",
+    "web-vitals": "^2.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}

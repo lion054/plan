@@ -1,0 +1,9 @@
+@media (max-width: 640px) {
+    .menu > :not(:first-child) {
+      display: none;
+    }
+
+    .social a {
+        display: none;
+    }
+}
